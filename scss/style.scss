@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+    width: 100vw;
+    height: 150vh;
+    background-image: url("../assets/images/fondo_header2.jpg");
+}
+
+header{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.img__logo__header{
+    width: 250px;
+    height: 250px;
+
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li  a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(145, 145, 145);
+    
+}
+
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(226, 226, 226);
+}
+
+
+
+.section__conteiner__banner{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/images/banner_perrofu.jpeg");
+    box-shadow: 0px -25px 20px -20px rgb(0, 0, 0 / 45%), 25px 0 20px -20px rgb(0, 0, 0 / 45%), 0px 25px 20px -20px rgb(0, 0, 0 / 45%), -25px 0 20px -20px rgb(0, 0 ,0 / 45%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.section__conteiner__banner__quienes__somos{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/images/banner_perrofu.jpeg");
+    box-shadow: 0px -25px 20px -20px rgb(0, 0, 0 / 45%), 25px 0 20px -20px rgb(0, 0, 0 / 45%), 0px 25px 20px -20px rgb(0 ,0 ,0 / 45%), -25px 0 20px -20px rgb(0, 0, 0 / 45%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section__conteiner__titulo{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section__conteiner__titulo__perrofu{
+    text-align: center;
+    color: #7e7e7e;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.texto__quienes__somos{
+    text-align: center;
+    
+    color: rgb(228, 228, 228);
+    line-height:50px;
+}
+
+
+.section__conteiner__galeria__de__imagenes{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-top: 20px;
+}
+
+.section__conteiner__galeria__de__imagenes h1 {
+    text-align: center;
+    color: #8f8a8a;
+    font-weight: bolder;
+}
+
+.section__previas__images__container{
+    display: grid;
+    grid-template-columns: 8em 8em;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+.section__previas__images__container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.footer__texto{
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(145,145, 145);
+}
+
+
+
+
+
+@media(max-width : 1334px){ 
+
+    .img__logo__header{
+        display: none;
+    }
+
+
+    
+}
+
+@media(max-width : 768px){
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width : 1000px){
+
+    main{
+        height: auto;
+    }
+
+    .section__conteiner__galeria__de__imagenes{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        row-gap: 10px;
+    } 
+
+}
