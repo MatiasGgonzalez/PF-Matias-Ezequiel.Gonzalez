@@ -12,6 +12,7 @@
 
     main{
         height: auto;
+        
         .section__conteiner__galeria__de__imagenes{
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 1fr 1fr;
@@ -26,11 +27,20 @@
 }
 
 @media(max-width : 820px){
-    header nav ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    header{
+        nav{
+            ul{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                li{
+                    a{
+                        font-size: 9px;
+                    }
+                }
+            }
+        }
     }
 }
 
