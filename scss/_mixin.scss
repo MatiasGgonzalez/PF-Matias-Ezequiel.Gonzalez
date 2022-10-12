@@ -1,0 +1,6 @@
+@mixin texto-descriptivo ($color,$espaciamiento,$size,$alineacion){
+    color: $color;
+    line-height: $espaciamiento;
+    font-size: $size;
+    text-align: $alineacion;
+}

@@ -1,0 +1,35 @@
+
+
+.section__conteiner__banner__quienes__somos{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/images/banner_perrofu.jpeg");
+    box-shadow: 0px -25px 20px -20px rgb(0, 0 ,0 / 45%), 25px 0 20px -20px rgb(0, 0 ,0 / 45%), 0px 25px 20px -20px rgb(0 ,0 ,0 / 45%), -25px 0 20px -20px rgb(0, 0 ,0 / 45%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .section__conteiner__titulo{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        h1{
+            color: $color-titulo;
+        }
+        h2{
+            color: $color-titulo;
+        }
+        
+        .texto__quienes__somos{
+            @include texto-descriptivo (rgb(228, 228, 228),60px, 1.5rem, center)
+
+        }
+    }
+
+
+}
+
+
+

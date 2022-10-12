@@ -1,0 +1,36 @@
+header{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    .conteiner__logo1__header{
+        .img__logo__header {
+            width: 250px;
+            height: 250px; }
+    }
+
+    nav ul {
+        display: flex;
+        li{
+            list-style: none;
+            a{
+                display: inline-block;
+                text-decoration: none;
+                padding: 10px;
+                font-size: 18px;
+                color: rgb(145, 145 ,145);
+            }
+
+        }
+     }
+
+     .conteiner__logo2__header{
+        .img__logo__header {
+            width: 250px;
+            height: 250px; }  
+     }
+
+}
+
