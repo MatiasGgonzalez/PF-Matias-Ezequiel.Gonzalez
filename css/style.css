@@ -86,7 +86,12 @@ footer {
     justify-content: center;
     align-items: center; }
     header nav ul li a {
-      font-size: 13px; } }
+      font-size: 13px; }
+  main .section__conteiner__banner__quienes__somos .section__conteiner__titulo .texto__quienes__somos {
+    color: #e4e4e4;
+    line-height: 60px;
+    font-size: 20px;
+    text-align: center; } }
 
 .section__conteiner__banner__quienes__somos {
   width: 100vw;

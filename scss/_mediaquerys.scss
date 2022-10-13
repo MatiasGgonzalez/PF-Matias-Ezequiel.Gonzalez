@@ -42,5 +42,15 @@
             }
         }
     }
+
+    main{
+        .section__conteiner__banner__quienes__somos{
+            .section__conteiner__titulo{
+                .texto__quienes__somos{
+                    @include texto-descriptivo (rgb(228, 228, 228),60px, 20px, center)
+                }
+            }
+        }
+    }  
 }
 
