@@ -21,9 +21,26 @@
             row-gap: 10px;
         } 
     }
+}
 
-    
-
+@media(max-width : 1024px){
+    main{
+        .nuestros__valores{
+            .nuestros__valores__contenedor__grid{
+                grid-template-columns: 1fr ;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                row-gap: 60px;
+                column-gap: 90px;
+                width: auto;
+                h3{
+                    font-size: 20px;
+                    text-align: center;
+                    grid-row: 1/2;
+                    grid-column: 1/2;
+                }
+            }
+        }   
+    }   
 }
 
 @media(max-width : 820px){
