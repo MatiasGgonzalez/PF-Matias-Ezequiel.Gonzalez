@@ -1,4 +1,7 @@
-@charset "UTF-8";
+@font-face {
+  font-family: 'Letra PerroFu';
+  src: url(../assets/Fonts/bBambooGrove.ttf); }
+
 body {
   width: 100vw;
   height: auto;
@@ -12,7 +15,7 @@ body {
 
 header {
   width: 100vw;
-  height: 30vh;
+  height: 42vh;
   display: flex;
   justify-content: space-around;
   align-items: center; }
@@ -27,8 +30,9 @@ header {
         display: inline-block;
         text-decoration: none;
         padding: 10px;
-        font-size: 16px;
-        color: #919191; }
+        font-size: 20px;
+        color: #919191;
+        font-family: 'Letra PerroFu'; }
   header .conteiner__logo2__header .img__logo__header {
     width: 250px;
     height: 250px; }
@@ -67,12 +71,13 @@ main {
       width: 1000px;
       justify-content: center; }
       main .nuestros__valores .nuestros__valores__contenedor__grid h3 {
-        font-size: 20px;
+        font-size: 35px;
         text-align: center;
         grid-row: 1/2;
         grid-column: 1/4;
         color: #6A666C;
-        padding-top: 30px; }
+        padding-top: 30px;
+        font-family: 'Letra PerroFu'; }
       main .nuestros__valores .nuestros__valores__contenedor__grid .nuestros__valores__container__compromiso {
         display: flex; }
         main .nuestros__valores .nuestros__valores__contenedor__grid .nuestros__valores__container__compromiso .nuestros__valores__iconos {
@@ -199,6 +204,43 @@ main {
             color: #6A666C; }
           main .nuestros__valores .nuestros__valores__contenedor__grid .nuestros__valores__container__pasion .nuestros__valores__descripcion .nuestros__valores__descricion__texto {
             color: #9F96A3; }
+  main .contenedor__banner__info {
+    margin-top: 80px;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../assets/images/productos.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover; }
+    main .contenedor__banner__info .contenedor__banner__info__contenido {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%; }
+      main .contenedor__banner__info .contenedor__banner__info__contenido h5 {
+        width: 45%;
+        color: white;
+        font-size: 30px; }
+      main .contenedor__banner__info .contenedor__banner__info__contenido .contenedor__aside {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 40%; }
+        main .contenedor__banner__info .contenedor__banner__info__contenido .contenedor__aside .contenedor__aside__contenido {
+          color: white;
+          text-align: center;
+          margin-left: 30px; }
+          main .contenedor__banner__info .contenedor__banner__info__contenido .contenedor__aside .contenedor__aside__contenido i {
+            font-size: 20px; }
+          main .contenedor__banner__info .contenedor__banner__info__contenido .contenedor__aside .contenedor__aside__contenido h6 {
+            margin-top: 10px;
+            font-size: 30px; }
+          main .contenedor__banner__info .contenedor__banner__info__contenido .contenedor__aside .contenedor__aside__contenido p {
+            margin-top: 10px;
+            font-size: 20px; }
   main .mapa .mapa__contenedor {
     margin-top: 200px;
     width: 100vw; }
@@ -213,29 +255,6 @@ footer {
     font-size: 18px;
     color: #919191; }
 
-header {
-  width: 100vw;
-  height: 30vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
-  header .conteiner__logo1__header .img__logo__header {
-    width: 250px;
-    height: 250px; }
-  header nav ul {
-    display: flex; }
-    header nav ul li {
-      list-style: none; }
-      header nav ul li .enlace_nav {
-        display: inline-block;
-        text-decoration: none;
-        padding: 10px;
-        font-size: 16px;
-        color: #919191; }
-  header .conteiner__logo2__header .img__logo__header {
-    width: 250px;
-    height: 250px; }
-
 .section__conteiner__banner__quienes__somos {
   width: 100vw;
   margin-top: 50px; }
@@ -243,69 +262,141 @@ header {
     width: 100vw;
     display: flex;
     justify-content: space-between; }
-    .section__conteiner__banner__quienes__somos .section__conteiner__quienes__somos__contenido .section__conteiner__contenido__texto .section__conteiner__contenido__texto__titulos h2 {
-      color: #6A666C; }
-    .section__conteiner__banner__quienes__somos .section__conteiner__quienes__somos__contenido .section__conteiner__contenido__texto .section__conteiner__contenido__texto__titulos h1 {
-      margin-top: 35px;
-      color: #6A666C; }
-    .section__conteiner__banner__quienes__somos .section__conteiner__quienes__somos__contenido .section__conteiner__contenido__texto .section__conteiner__contenido__texto__parrafo p {
-      margin-top: 30px;
-      color: #9F96A3; }
+    .section__conteiner__banner__quienes__somos .section__conteiner__quienes__somos__contenido .section__conteiner__contenido__texto {
+      padding-left: 10px; }
+      .section__conteiner__banner__quienes__somos .section__conteiner__quienes__somos__contenido .section__conteiner__contenido__texto .section__conteiner__contenido__texto__titulos h2 {
+        color: #6A666C; }
+      .section__conteiner__banner__quienes__somos .section__conteiner__quienes__somos__contenido .section__conteiner__contenido__texto .section__conteiner__contenido__texto__titulos h1 {
+        margin-top: 35px;
+        color: #6A666C; }
+      .section__conteiner__banner__quienes__somos .section__conteiner__quienes__somos__contenido .section__conteiner__contenido__texto .section__conteiner__contenido__texto__parrafo p {
+        margin-top: 30px;
+        color: #9F96A3; }
     .section__conteiner__banner__quienes__somos .section__conteiner__quienes__somos__contenido .section__conteiner__contenido__img img {
       width: 400px;
       height: 350px;
-      border-radius: 10px; }
-
-.section__conteiner__galeria__de__imagenes {
-  width: 100%;
-  height: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  padding-top: 20px; }
-  .section__conteiner__galeria__de__imagenes .section__previas h1 {
-    text-align: center;
-    color: #787878;
-    font-weight: bolder; }
-  .section__conteiner__galeria__de__imagenes .section__previas .section__previas__images__container {
-    display: grid;
-    grid-template-columns: 8em 8em;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 25px; }
-    .section__conteiner__galeria__de__imagenes .section__previas .section__previas__images__container div img {
-      width: 100%;
-      height: 100%;
       border-radius: 10px;
       object-fit: cover; }
-  .section__conteiner__galeria__de__imagenes .section__eventos h1 {
-    text-align: center;
-    color: #787878;
-    font-weight: bolder; }
-  .section__conteiner__galeria__de__imagenes .section__eventos .section__eventos__images__container {
+
+.contenedor__galeria {
+  padding-top: 50px;
+  background-color: #e9e9e9;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .contenedor__galeria h1 {
+    color: grey;
+    font-family: 'Letra PerroFu'; }
+  .contenedor__galeria .contenedor__galeria__grid {
     display: grid;
-    grid-template-columns: 8em 8em;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: 200px   200px;
     gap: 20px;
-    justify-content: center;
-    margin-top: 25px; }
-    .section__conteiner__galeria__de__imagenes .section__eventos .section__eventos__images__container div img {
+    margin-top: 30px; }
+    .contenedor__galeria .contenedor__galeria__grid .contenedor__galeria__grid__contenido img {
       width: 100%;
       height: 100%;
-      border-radius: 10px; }
-  .section__conteiner__galeria__de__imagenes .section__cumpleaños h1 {
-    text-align: center;
-    color: #787878;
-    font-weight: bolder; }
-  .section__conteiner__galeria__de__imagenes .section__cumpleaños .section__cumpleaños__images__container {
-    display: grid;
-    grid-template-columns: 8em 8em;
-    gap: 20px;
+      object-fit: cover; }
+    .contenedor__galeria .contenedor__galeria__grid #banner-posicion {
+      grid-column: 2/4;
+      grid-row: 1/3; }
+    .contenedor__galeria .contenedor__galeria__grid #aside-img-1 {
+      grid-column: 1/2;
+      grid-row: 1/3; }
+    .contenedor__galeria .contenedor__galeria__grid #aside-img-2 {
+      grid-template-columns: 2/3;
+      grid-row: 1/3; }
+    .contenedor__galeria .contenedor__galeria__grid #aside-img-3 {
+      grid-template-columns: 3/4;
+      grid-row: 1/3; }
+    .contenedor__galeria .contenedor__galeria__grid #aside-img-4 {
+      grid-column: 4/5;
+      grid-row: 1/3; }
+    .contenedor__galeria .contenedor__galeria__grid #banner-centro-1 {
+      grid-column: 1/3;
+      grid-row: 1/3; }
+    .contenedor__galeria .contenedor__galeria__grid #banner-centro-2 {
+      grid-column: 3/5;
+      grid-row: 1/3; }
+
+.section__conteiner__banner__productos {
+  width: 100vw;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/productos.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .section__conteiner__banner__productos .section__conteiner__titulo {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    margin-top: 25px; }
-    .section__conteiner__galeria__de__imagenes .section__cumpleaños .section__cumpleaños__images__container div img {
-      width: 100%;
-      height: 100%;
-      border-radius: 10px; }
+    text-align: center; }
+    .section__conteiner__banner__productos .section__conteiner__titulo h1 {
+      font-size: 60px;
+      color: white;
+      width: 100%; }
+    .section__conteiner__banner__productos .section__conteiner__titulo i {
+      margin-top: 55px;
+      color: white;
+      font-size: 50px; }
+
+.productos__contenedor {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white; }
+  .productos__contenedor .productos__contenedor__titulo {
+    margin-top: 80px;
+    font-size: 20px;
+    text-align: center;
+    color: grey; }
+  .productos__contenedor .productos__contenedor__grid {
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 50px 1fr 1fr;
+    column-gap: 90px;
+    row-gap: 35px;
+    text-align: center; }
+    .productos__contenedor .productos__contenedor__grid .productos__contenedor__grid__titulo {
+      grid-column: 1/5;
+      grid-row: 1/2;
+      color: #929ca2;
+      border-bottom: solid 1px; }
+    .productos__contenedor .productos__contenedor__grid .productos__contenedor__grid__contenido .productos__contenedor__grid__contenido__imagen__contenedor {
+      width: 100%; }
+      .productos__contenedor .productos__contenedor__grid .productos__contenedor__grid__contenido .productos__contenedor__grid__contenido__imagen__contenedor img {
+        width: 100%;
+        object-fit: contain;
+        border-radius: 10px; }
+    .productos__contenedor .productos__contenedor__grid .productos__contenedor__grid__contenido p {
+      color: #777777;
+      font-weight: bold;
+      margin-top: 5px; }
+    .productos__contenedor .productos__contenedor__grid .productos__contenedor__grid__contenido button {
+      margin-top: 10px;
+      font-size: 13px;
+      font-family: Arial;
+      width: 140px;
+      height: 28px;
+      border-width: 1px;
+      color: #777777;
+      border-color: transparent;
+      font-weight: bold;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+      box-shadow: inset 0px 1px 0px 0px #ffffff;
+      text-shadow: inset 0px 1px 0px #ffffff;
+      background: linear-gradient(#ededed, #dfdfdf);
+      cursor: pointer; }
 
 @media (max-width: 1334px) {
   .img__logo__header {
@@ -321,7 +412,7 @@ header {
       padding-bottom: 20px;
       row-gap: 10px; } }
 
-@media (max-width: 1024px) {
+@media (max-width: 1140px) {
   main .nuestros__valores .nuestros__valores__contenedor__grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -329,7 +420,7 @@ header {
     column-gap: 90px;
     width: auto; }
     main .nuestros__valores .nuestros__valores__contenedor__grid h3 {
-      font-size: 20px;
+      font-size: 35px;
       text-align: center;
       grid-row: 1/2;
       grid-column: 1/2; } }
@@ -359,3 +450,77 @@ header {
     line-height: 60px;
     font-size: 20px;
     text-align: center; } }
+
+@media (max-width: 840px) {
+  main .contenedor__banner__info .contenedor__banner__info__contenido h5 {
+    width: 100%;
+    text-align: center; }
+  main .contenedor__banner__info .contenedor__banner__info__contenido .contenedor__aside {
+    display: none; } }
+
+@media (max-width: 644px) {
+  main .section__conteiner__form form fieldset .section__container__contenido .contenedor__mensaje__botones textarea {
+    width: 300px; }
+  main .section__conteiner__form form fieldset .section__container__contenido .contenedor__mensaje__botones .contenedor__mensaje__botones__botones {
+    width: auto; }
+  main .nuestros__valores .nuestros__valores__contenedor__grid h3 {
+    font-size: 20px; } }
+
+.section__conteiner__form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .section__conteiner__form h1 {
+    width: 100%;
+    font-size: 35px;
+    color: grey;
+    font-family: 'Letra PerroFu'; }
+  .section__conteiner__form form {
+    padding-top: 30px;
+    height: auto; }
+    .section__conteiner__form form fieldset {
+      border: none;
+      height: 100%; }
+      .section__conteiner__form form fieldset .section__container__contenido {
+        display: flex;
+        flex-direction: column; }
+        .section__conteiner__form form fieldset .section__container__contenido .section__container__contenido__aside .section__container__aside__content input {
+          margin: 10px;
+          width: 300px;
+          height: 50px; }
+        .section__conteiner__form form fieldset .section__container__contenido .contenedor__mensaje__botones {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; }
+          .section__conteiner__form form fieldset .section__container__contenido .contenedor__mensaje__botones textarea {
+            width: 620px;
+            height: 50px; }
+          .section__conteiner__form form fieldset .section__container__contenido .contenedor__mensaje__botones .contenedor__mensaje__botones__botones {
+            display: flex;
+            margin-top: 20px;
+            width: 600px;
+            justify-content: center; }
+            .section__conteiner__form form fieldset .section__container__contenido .contenedor__mensaje__botones .contenedor__mensaje__botones__botones input {
+              margin-top: 10px;
+              font-size: 13px;
+              font-family: Arial;
+              width: 140px;
+              height: 28px;
+              border-width: 1px;
+              color: #777777;
+              border-color: transparent;
+              font-weight: bold;
+              border-top-left-radius: 6px;
+              border-top-right-radius: 6px;
+              border-bottom-left-radius: 6px;
+              border-bottom-right-radius: 6px;
+              box-shadow: inset 0px 1px 0px 0px #ffffff;
+              text-shadow: inset 0px 1px 0px #ffffff;
+              background: linear-gradient(#ededed, #dfdfdf);
+              cursor: pointer;
+              margin: 20px; }

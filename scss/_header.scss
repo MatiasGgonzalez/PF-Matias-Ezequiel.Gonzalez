@@ -1,6 +1,6 @@
 header{
     width: 100vw;
-    height: 30vh;
+    height: 42vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -11,20 +11,23 @@ header{
             height: 250px; }
     }
 
-    nav ul {
-        display: flex;
-        li{
-            list-style: none;
-            a{
-                display: inline-block;
-                text-decoration: none;
-                padding: 10px;
-                font-size: 16px;
-                color: rgb(145, 145 ,145);
+    nav {
+        ul {
+            display: flex;
+            li{
+                list-style: none;
+                a{
+                    display: inline-block;
+                    text-decoration: none;
+                    padding: 10px;
+                    font-size: 20px;
+                    color: rgb(145, 145 ,145);
+                    font-family: 'Letra PerroFu';
+                }
+    
             }
-
-        }
-     }
+         }
+    }
 
      .conteiner__logo2__header{
         .img__logo__header {

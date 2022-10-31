@@ -1,3 +1,7 @@
+@font-face {
+    font-family:'Letra PerroFu' ;
+    src: url(../assets/Fonts/bBambooGrove.ttf);
+}
 @import './variables';
 @import './mixin';
 @import './body';
@@ -7,5 +11,7 @@
 @import './footer';
 @import './page-quienes-somos';
 @import './page-galeria';
+@import './page__nuestros_servicios';
 @import './mediaquerys';
+@import './page__contacto';
 

@@ -1,0 +1,77 @@
+
+
+.section__conteiner__form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h1{
+        width: 100%;
+        font-size: 35px;
+        color: grey;
+        font-family: 'Letra PerroFu';
+    }
+    form{
+        padding-top: 30px;
+        height: auto;
+        fieldset{
+            border: none;
+            height: 100%;
+            .section__container__contenido{
+                display: flex;
+                flex-direction: column;
+                .section__container__contenido__aside{
+                    .section__container__aside__content{
+                        label{
+                        }
+                        input{
+                            margin: 10px;
+                            width: 300px;
+                            height: 50px;
+                        }
+                    }
+                }
+                .contenedor__mensaje__botones{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    textarea{
+                        width: 620px;
+                        height: 50px;                                          
+                    }
+                    .contenedor__mensaje__botones__botones{
+                        display: flex;
+                        margin-top: 20px;
+                        width: 600px;
+                        justify-content: center;
+                        input{
+                            margin-top: 10px;
+                            font-size:13px;
+                            font-family:Arial;
+                            width:140px;
+                            height:28px;
+                            border-width:1px;
+                            color:#777777;
+                            border-color: transparent;
+                            font-weight:bold;
+                            border-top-left-radius:6px;
+                            border-top-right-radius:6px;
+                            border-bottom-left-radius:6px;
+                            border-bottom-right-radius:6px;
+                            box-shadow:inset 0px 1px 0px 0px #ffffff;
+                            text-shadow:inset 0px 1px 0px #ffffff;
+                            background:linear-gradient(#ededed, #dfdfdf);
+                            cursor: pointer;
+                            margin: 20px;
+                        }
+    
+                    }
+                }
+            }
+        }
+    }
+}

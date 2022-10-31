@@ -1,80 +1,63 @@
-.section__conteiner__galeria__de__imagenes{
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    padding-top: 20px;
-    .section__previas{
-         h1 {
-            text-align: $texto-centrado;
-            color: $color-titulo;
-            font-weight: bolder;
-        }
-        .section__previas__images__container{
-            display: grid;
-            grid-template-columns: 8em 8em;
-            gap: 20px;
-            justify-content: center;
-            margin-top: 25px;
 
-            div{
-                img{
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 10px;
-                    object-fit: cover;
-                }
+.contenedor__galeria{
+    padding-top: 50px;
+    background-color: #e9e9e9;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        color: grey;
+        font-family: 'Letra PerroFu';
+    }
+    .contenedor__galeria__grid{
+        display: grid;
+        grid-template-columns: repeat(4,250px);
+        grid-template-rows: 200px   200px ;
+        gap: 20px;
+        margin-top: 30px;
+        .contenedor__galeria__grid__contenido{
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
             }
         }
+        #banner-posicion{
+            grid-column: 2/4;
+            grid-row: 1/3;
+
+        }
+        #aside-img-1{
+            grid-column: 1/2;
+            grid-row: 1/3;
+        }
+        #aside-img-2{
+            grid-template-columns: 2/3;
+            grid-row: 1/3;
+        }
+        #aside-img-3{
+            grid-template-columns: 3/4;
+            grid-row: 1/3;
+        }
+        #aside-img-4{
+            grid-column: 4/5;
+            grid-row: 1/3;
+        }
+        #banner-centro-1{
+            grid-column: 1/3;
+            grid-row: 1/3;
+        }
+        #banner-centro-2{
+            grid-column: 3/5;
+            grid-row: 1/3;
+            
+        }
+        
     }
-
-    .section__eventos{
-        h1 {
-           text-align: $texto-centrado;
-           color: $color-titulo;
-           font-weight: bolder;
-       }
-       .section__eventos__images__container{
-           display: grid;
-           grid-template-columns: 8em 8em;
-           gap: 20px;
-           justify-content: center;
-           margin-top: 25px;
-
-           div{
-               img{
-                   width: 100%;
-                   height: 100%;
-                   border-radius: 10px;
-               }
-           }
-       }
-   }
-
-   .section__cumpleaños{
-    h1 {
-       text-align: $texto-centrado;
-       color: $color-titulo;
-       font-weight: bolder;
-   }
-   .section__cumpleaños__images__container{
-       display: grid;
-       grid-template-columns: 8em 8em;
-       gap: 20px;
-       justify-content: center;
-       margin-top: 25px;
-
-       div{
-           img{
-               width: 100%;
-               height: 100%;
-               border-radius: 10px;
-           }
-       }
-   }
 }
-}
+
 
 
 
