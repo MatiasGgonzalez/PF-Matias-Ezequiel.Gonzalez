@@ -11,13 +11,14 @@
         color: grey;
         font-family: 'Letra PerroFu';
         font-size: 35px;
+        margin-bottom: 30px;
     }
     .contenedor__galeria__grid{
         display: grid;
         grid-template-columns: repeat(4,1fr);
         grid-auto-rows: 200px;
         gap: 20px;
-        padding: 20px;
+        padding-bottom: 50px;
         width: 90%;
         margin: auto;
         .contenedor__galeria__grid__contenido{

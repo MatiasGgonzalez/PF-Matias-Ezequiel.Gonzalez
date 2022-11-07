@@ -1,6 +1,6 @@
 header{
     width: 100vw;
-    height: 30vh;
+    height: 34vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -23,6 +23,13 @@ header{
                     font-size: 22px;
                     color: rgb(145, 145 ,145);
                     font-family: 'Letra PerroFu';
+                }
+                a{
+                    &:hover{
+                        border-radius: 9px;
+                        background-color: rgb(84, 84, 87);
+                        transition: 1s;
+                    }
                 }
     
             }
